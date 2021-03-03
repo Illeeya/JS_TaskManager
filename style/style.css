@@ -1,0 +1,31 @@
+body {
+  background-color: rgb(15, 15, 15);
+  color: white;
+
+  text-align: center;
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+}
+
+.tasks .task {
+  padding: 10px;
+}
+
+.textarea {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  resize: both;
+  text-align: center;
+  box-sizing: border-box;
+  background-color: rgb(41, 41, 41);
+  color: white;
+  border: rgb(0, 0, 0) 2px solid;
+}
+
+button,
+.my-button {
+  width: 10vw;
+  font-weight: bold;
+}
