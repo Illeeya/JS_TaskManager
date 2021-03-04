@@ -97,7 +97,7 @@ function del(id) {
 function save(id) {
   const textare_node = document.getElementById(`${id}-textarea`);
   tasks.forEach((x, index) => {
-    if (x.id == id) tasks[index].text = textare_node.textContent;
+    if (x.id == id) tasks[index].text = textare_node.innerHTML;
   });
   save_cookies();
 }
